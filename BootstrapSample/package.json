@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "css": "npm-run-all css-compile css-prefix css-minify",
-    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/custom.scss dist/css/custom.css",
-    "css-prefix": "postcss --config src/postcss.config.js --replace dist/css/*.css",
-    "css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/custom.min.css dist/css/custom.css"
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/custom.scss wwwroot/css/custom.css",
+    "css-prefix": "postcss --config src/postcss.config.js --replace wwwroot/css/*.css",
+    "css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output wwwroot/css/custom.min.css wwwroot/css/custom.css"
   },
   "author": "",
   "license": "ISC",
