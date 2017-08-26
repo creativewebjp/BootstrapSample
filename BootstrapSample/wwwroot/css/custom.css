@@ -93,7 +93,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #007bff;
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -518,7 +518,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #007bff;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out;
@@ -1337,7 +1337,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #007bff;
+  background-color: #fff;
 }
 
 .table-sm th,
@@ -1503,7 +1503,7 @@ pre code {
 }
 
 .thead-inverse th {
-  color: #007bff;
+  color: #fff;
   background-color: #212529;
 }
 
@@ -1513,7 +1513,7 @@ pre code {
 }
 
 .table-inverse {
-  color: #007bff;
+  color: #fff;
   background-color: #212529;
 }
 
@@ -2974,7 +2974,7 @@ tbody.collapse.show {
 }
 
 .custom-control-input:focus ~ .custom-control-indicator {
-  box-shadow: 0 0 0 1px #007bff, 0 0 0 3px #007bff;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #007bff;
 }
 
 .custom-control-input:active ~ .custom-control-indicator {
@@ -3202,8 +3202,8 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #007bff;
-  border-color: #ddd #ddd #007bff;
+  background-color: #fff;
+  border-color: #ddd #ddd #fff;
 }
 
 .nav-tabs .dropdown-menu {
